@@ -1,0 +1,336 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    margin: 0rem;
+    height: 100%;
+  }
+ 
+  footer{
+   margin-top:5rem
+  }
+
+
+  .contenedor_textoInformativo {
+    background-color: #333333;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 8px;
+    align-items: center;
+  }
+
+.textoInformativo{
+  font-size: 13px;
+}
+
+
+
+  .Seccion_icon_links {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+
+
+
+  .logo {
+    width: 5rem;
+  }
+
+  
+
+  .logo .img_logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .nav_links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+  }
+
+  .nav_links a {
+    width: max-content;
+    color:#393939;
+    font-weight: 600;
+  }
+
+  .contenedor_Banner {
+    background-color: black;
+    height: 36rem;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .contenedor_Banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ /* seccion fechas */
+
+ .proximos-shows{
+  background-color: white;
+  margin-top: 4rem;
+  padding: 3rem 2rem;
+ }
+
+ .proximos-shows h2{
+  color: #000;
+  text-align: center;
+  
+ }
+
+ .lista_fechas{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+ }
+
+ .fecha-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+
+ /* seccion videos */
+
+.seccion_videos{
+  margin-top: 8rem;
+
+}
+
+.seccion_videos h2{
+  color:white;
+  text-align: center;
+}
+
+
+.contenedor_video{
+  margin-top:4rem
+  
+  }
+
+.contenedor_video iframe{
+width: 100%;
+height: 40rem;
+
+}
+
+ /* seccion galeria */
+
+.seccion_galeria{
+
+  margin:12rem 0 4rem 0
+}
+
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 16px; /* Espacio entre imágenes */
+  padding: 16px; /* Espacio interno de la galería */
+}
+
+.item {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.imagenGaleria img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.foto-l {
+  grid-column: span 2; /* Ocupa dos columnas */
+  grid-row: span 2; /* Ocupa dos filas */
+}
+
+.foto-m {
+  grid-column: span 1; /* Ocupa una columna */
+  grid-row: span 1; /* Ocupa una fila */
+}
+
+.foto-s {
+  grid-column: span 1; /* Ocupa una columna */
+  grid-row: span 1; /* Ocupa una fila */
+}
+
+
+ /* seccion Spotify */
+
+.seccion-spotify h2{
+
+  color:white;
+  text-align: center
+}
+
+
+.btn-spotify{
+  display: flex;
+  justify-content: center;
+  margin-top:5rem
+}
+
+
+
+.btn-primary{
+  background-color: #1DB954!important;
+  color:#ffffff !important;
+  border-color:#1DB954 !important;
+  width: 25%;
+
+}
+
+
+
+ /* seccion footer */
+
+
+  .ContenedorFooter {
+        background-color: rgb(255, 255, 255);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 3rem 8rem;
+    }
+
+
+
+
+    
+.Footer_texto{
+display: flex;
+flex-direction: column;
+margin:1rem;
+gap:1rem
+}
+
+
+.Footer_texto img{
+width: 60%;
+  }
+
+    .AutoriaSitio{
+      background-color: gray;
+      color:white;
+      text-align: center;
+
+      
+    }
+
+    .Footer_texto_lista{
+      margin:1rem;
+      display: flex;
+      justify-content: end;
+    }
+
+    .Footer_texto_lista ul{
+      list-style-type: none;
+padding-left: 0; 
+margin-left: 0;
+width: fit-content;
+    }
+
+
+    /* estilos vista contacto */
+
+    #vista_contacto{
+      display: flex;
+    flex-direction: column;
+    margin: 2rem 7rem;
+    gap: 3rem;
+    color:white
+    }
+
+.contenedor_info_contacto{
+  display: grid;
+  grid-template-columns: 50% 48%;
+  gap: 2rem;
+  padding: 2rem;
+}
+    
+.texto_contacto{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  color:white
+}
+
+.contenedor_video_contacto{
+  display: flex;
+  justify-content: center;
+}
+
+ /* estilos vista galeria */
+
+#galeria_fotos{
+  display: flex;
+    flex-direction: column;
+    margin: 2rem 7rem;
+    gap: 3rem;
+}
+
+
+.contenedor_galeria{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  gap: 1rem;
+}
+
+
+/* estilos vista galeria */
+
+#vista_productos{
+  margin: 2rem 7rem;
+  gap: 3rem;
+}
+
+.contenedor_tarjetas{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+
+.tarjetas_productos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 12rem;
+  background-color: aquamarine;
+}
+
+
+/* estilos vista nosotros */
+
+
+.contenedor_info_biografia{
+  display: grid;
+  grid-template-columns: 50% 48%;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.texto_biografia{
+  display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contenedor_img_biografia{
+display: flex;
+justify-content: center;
+}
