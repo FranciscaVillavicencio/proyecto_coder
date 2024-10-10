@@ -4,59 +4,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paris Jazz Club</title>
 
-    <!--estilos de letra-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
-      rel="stylesheet"
-    />
+      <!--estilos de letra-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet"/>
+  
+      <!--bootstrap-->
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+  
+      <!--icon bootstrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  
 
     <link rel="stylesheet" href="../CSS/style.css">
   </head>
 
 
-  <body>
+  <body style="background-color: #000">
     <header>
       <div class="contenedor_textoInformativo">
-        <span class="textoInformativo">Texto Informativo</span>
+        <span class="textoInformativo">El último lanzamiento de Chet Baker: Chet Baker Quartet</span>
+        <i class="bi bi-x"></i>
       </div>
       <section class="Seccion_icon_links">
         <div class="logo">
-          <a href="/">
-            LOGO BANDA
-          </a>
+          
+          <a href="/"><img  class="img_logo"  src="/Assets/logo.Baker.png"/></a>
         </div>
 
         <!-- Menú de navegación principal -->
         <nav class="nav_links">
           <a href="../index.html">Próximos Eventos</a>  <!--este link no redirige a una vista sino que a una sección del Home-->
           <a href="./contacto.html">Contacto</a>
-          <a href="./galeria.html">Galería</a>
+          <a href="#">Galería</a>
           <a href="./tienda.html">Tienda</a>
           <a href="./nosotros.html">Sobre Nosotros</a>
         </nav>
       </section>
     </header>
+
+    
       <main>
       
         <section id="galeria_fotos">
 
           <h1>Galería</h1>
+
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </span>
+
+
+
           <div class="contenedor_galeria">
         
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
-            <img src="../Assets/duck.jpg" alt="" width="15%" height="">
+            <div class="imagenGaleria foto-l"><img src="/Assets/galeria/foto1.webp" alt="Imagen 1"></div>
+            <div class="imagenGaleria foto-m"><img src="/Assets/galeria/foto2.webp" alt="Imagen 2"></div>
+            <div class="imagenGaleria foto-m"><img src="/Assets/galeria/foto3.webp" alt="Imagen 3"></div>
+            <div class="imagenGaleria foto-s"><img src="/Assets/galeria/foto4.jpg" alt="Imagen 4"></div>
+            <div class="imagenGaleria foto-s"><img src="/Assets/galeria/foto5.jpg" alt="Imagen 5"></div>
+            <div class="imagenGaleria foto-l"><img src="/Assets/galeria/foto6.avif" alt="Imagen 6"></div>
+            <div class="imagenGaleria foto-s"><img src="/Assets/galeria/foto2.webp" alt="Imagen 7"></div>
 
 
           </div>
@@ -66,38 +73,46 @@
       </main>
 
       <footer>
-
         <div class="ContenedorFooter">
           <div class="Footer_texto">
-
-            <a href="/"> LOGO BANDA </a>
-            <span>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
-
+            <a href="/"><img  class="img_logo"  src="/Assets/logo.Baker.png"/></a>
+            <span>It was popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of Lorem
+              Ipsum.</span>
+  
+            <div class="contenedor_icons">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-tiktok"></i>
+              <i class="bi bi-youtube"></i>
+              <i class="bi bi-spotify"></i>
+            </div>            
           </div>
-
+  
           <div class="Footer_texto_lista">
             <ul>
-              <li>Elemento 1</li>
-              <li>Elemento 2</li>
-              <li>Elemento 3</li>
+              <li><strong>Nosotros</strong></li>
+              <li>Contáctanos</li>
+              <li>Tienda</li>
+              <li>Próximos Shows</li>
             </ul>
           </div>
-
+  
           <div class="Footer_texto_lista">
             <ul>
-              <li>Elemento 1</li>
-              <li>Elemento 2</li>
-              <li>Elemento 3</li>
+              <li><strong>Nuestras Redes</strong></li>
+              <li>Spotify</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Facebook</li>
             </ul>
           </div>
-
-
-         
-           
         </div>
-        <div class="AutoriaSitio"><span>Todos los derechos reservados.</span></div>
-
-    
+        <div class="AutoriaSitio">
+          <span>Todos los derechos reservados.</span>
+        </div>
       </footer>
     
   </body>
