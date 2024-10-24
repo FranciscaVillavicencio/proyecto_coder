@@ -1,27 +1,28 @@
-//resert
-@import './base/reset';
+
+@use 'base/reset';
+
 
 
 //HOME
 
-@import './layout/header';
-@import './layout/portada';
-@import './layout/fechas';
-@import './layout/videos';
-@import './layout/galeria';
-@import './layout/footer';
+@use 'layout/header';
+@use 'layout/portada';
+@use 'layout/fechas';
+@use 'layout/videos';
+@use 'layout/galeria';
+@use 'layout/footer';
+
+
+//vistas
+
+@use 'biografia/biografia';
+@use 'contacto/style_contacto';
+@use 'galeria/style_galeria';
+@use 'tienda/style_tienda';
 
 
 
 
-//CONTACTO
-@import './contacto/style_contacto';
-
-//Galeria
-@import './galeria/style_galeria';
-
-//tienda
-@import './tienda/style_tienda';
 
 
-@import './biografia/biografia';
+

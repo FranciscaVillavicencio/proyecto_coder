@@ -212,6 +212,35 @@ footer {
   width: fit-content;
 }
 
+#vistaNosotros {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 7rem;
+  gap: 1rem;
+  color: white;
+}
+#vistaNosotros h1 {
+  font-size: 2rem;
+}
+
+.contenedor_info_biografia {
+  display: grid;
+  grid-template-columns: 50% 48%;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.texto_biografia {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contenedor_img_biografia {
+  display: flex;
+  justify-content: center;
+}
+
 #vista_contacto {
   display: flex;
   flex-direction: column;
