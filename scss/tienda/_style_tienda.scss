@@ -1,0 +1,48 @@
+#vista_productos {
+    display: flex;
+      flex-direction: column;
+      margin: 2rem 7rem;
+      gap: 3rem;
+      color:white;
+      h1{
+        font-size: 2rem;
+        }
+  }
+  
+  .contenedor_tarjetas {
+    display: grid;
+      grid-template-columns: repeat(3, 30%);
+      justify-content: center;
+      gap: 3rem;
+      justify-items: center;
+      
+  }
+
+
+  .tarjetas_productos {
+    color:#000;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 12rem;
+    border-radius: 5px;
+    gap: 1rem;
+    padding: 1rem;
+    border: solid 0.5px #e5e5e5;
+
+    .btn{
+        background-color: #fee93e !important;
+        border-color: #fee93e !important;
+        color: #000;
+        font-weight: 700;
+        padding: 7px;
+      
+      }
+  }
+
+  .contenedor_img_producto{
+    display: flex;
+    height: 12rem;
+    align-items: center;
+}

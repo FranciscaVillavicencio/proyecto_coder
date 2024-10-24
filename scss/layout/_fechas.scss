@@ -1,0 +1,33 @@
+.proximos-shows {
+    background-color: white;
+    margin-top: 4rem;
+    padding: 3rem 2rem;
+
+    h2 {
+        color: #000;
+        text-align: center;
+        font-weight: 800;
+      }
+  }
+
+
+  .lista_fechas {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+
+  .fecha-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .btn-dark {
+        background-color: #fee93e !important;
+        border-color: #fee93e !important;
+        color: #000;
+        font-weight: 700;
+      }
+  }

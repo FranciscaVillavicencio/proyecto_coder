@@ -1,0 +1,47 @@
+#vista_contacto {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 7rem;
+    gap: 1rem;
+    color: white;
+        h1{
+            font-size: 2rem;
+        }
+      
+  }
+
+  .contenedor_info_contacto {
+    display: grid;
+    grid-template-columns: 50% 48%;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  
+
+  .texto_contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+        .bi-whatsapp{
+            font-size: 1.5rem;
+            color:#fee93e
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+          }
+          
+
+  }
+
+  .mail_contacto .bi-envelope{
+    font-size: 1.5rem;
+    color:#fee93e
+  }
+
+  .contenedor_video_contacto {
+    display: flex;
+    justify-content: center;
+  }

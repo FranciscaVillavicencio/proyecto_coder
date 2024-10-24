@@ -1,0 +1,58 @@
+.seccion_galeria {
+    margin: 12rem 0 4rem 0;
+  }
+
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 16px; /* Espacio entre imágenes */
+    padding: 16px; /* Espacio interno de la galería */
+  }
+  
+
+  .item {
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .imagenGaleria img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .foto-l {
+    grid-column: span 2; /* Ocupa dos columnas */
+    grid-row: span 2; /* Ocupa dos filas */
+  }
+  
+  .foto-m {
+    grid-column: span 1; /* Ocupa una columna */
+    grid-row: span 1; /* Ocupa una fila */
+  }
+  
+  .foto-s {
+    grid-column: span 1; /* Ocupa una columna */
+    grid-row: span 1; /* Ocupa una fila */
+  }
+
+  /* seccion Spotify */
+
+.seccion-spotify h2 {
+    font-weight: 800;
+    color: white;
+    text-align: center;
+  }
+  
+  .btn-spotify {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+  
+  .btn-primary {
+    background-color: #fee93e !important;
+    color: #000 !important;
+    border-color: #fee93e !important;
+    width: 25%;
+  }

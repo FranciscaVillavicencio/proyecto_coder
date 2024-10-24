@@ -1,0 +1,27 @@
+//resert
+@import './base/reset';
+
+
+//HOME
+
+@import './layout/header';
+@import './layout/portada';
+@import './layout/fechas';
+@import './layout/videos';
+@import './layout/galeria';
+@import './layout/footer';
+
+
+
+
+//CONTACTO
+@import './contacto/style_contacto';
+
+//Galeria
+@import './galeria/style_galeria';
+
+//tienda
+@import './tienda/style_tienda';
+
+
+@import './biografia/biografia';

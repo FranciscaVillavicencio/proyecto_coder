@@ -1,0 +1,50 @@
+
+ footer {
+  margin-top: 5rem;
+}
+
+
+.contenedorFooter {
+    background-color: rgb(254 233 62);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem 8rem;
+  }
+  
+  .contenedor_icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 21px;
+    
+  }
+
+  .footer_texto {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 1rem;
+
+    img {
+        width: 60%;
+      }
+      
+  }
+
+  .autoriaSitio {
+    background-color: #000;
+    color: grey;
+    text-align: center;
+  }
+
+  .footer_texto_lista {
+    margin: 1rem;
+    display: flex;
+    justify-content: end;
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
+        width: fit-content;
+      }
+  }
