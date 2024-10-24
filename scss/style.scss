@@ -1,11 +1,11 @@
 
-@use 'base/reset';
+@import '/scss/base/reset';
 
 
 
 //HOME
 
-@use 'layout/header';
+@import '/scss/layout/header';
 @use 'layout/portada';
 @use 'layout/fechas';
 @use 'layout/videos';
