@@ -1,0 +1,165 @@
+/* Estilos mobile que se oculta en desktop */
+@media (min-width: 768px) {
+    .banner_mobile {
+        display: none;
+    }
+  }
+  
+  
+  
+
+
+
+
+
+  
+  /* Estilos para teléfonos pequeños */
+  @media (max-width: 480px) {
+
+    
+        .nav_links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            text-align: end;
+            margin-top: 2rem;
+        }
+    
+    
+  .banner_desktop{
+    display: none;
+  }
+
+
+  .contenedor_Banner {
+    background-color: black;
+    height: -webkit-fill-available;
+    overflow: hidden;
+    width: 100%;
+    .banner_mobile {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+  }
+
+
+    .proximos-shows {
+        margin-top: 3rem;
+        padding: 1rem;
+    }
+  
+    .lista_fechas {
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+
+    
+  .fecha-1 {
+    font-size: 14px;
+    flex-direction: column;
+    gap: 0.5rem;
+    .btn-dark {
+        font-size: 14px;
+      }
+  }
+
+
+
+  .seccion_videos {
+    margin-top: 4rem;
+    }
+
+    .seccion_galeria {
+        margin: 4rem 0 4rem 0;
+    }
+    
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+    }
+  
+
+    .btn-spotify {
+        margin-top: 3rem;
+    }
+
+    .btn-primary {
+        width: 70%;
+    }
+
+
+  .contenedorFooter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 1rem;
+   }
+
+
+   .footer_texto_lista {
+    justify-content: flex-start;
+    }
+
+
+    // contacto
+    #vista_contacto {
+      margin: 2rem 2rem;
+
+  }
+
+  .contenedor_info_contacto {
+
+    grid-template-columns: 100%;
+
+    padding: 0rem 0;
+}
+
+// galeria
+
+#galeria_fotos {
+  margin: 2rem 2rem;
+ 
+}
+
+.contenedor_galeria {
+  flex-direction: column;
+}
+
+// nosotros
+#vistaNosotros {
+  margin: 2rem 2rem;
+}
+
+.contenedor_info_biografia {
+  grid-template-columns: 100%;
+}
+
+.contenedor_img_biografia{
+img{
+  width: 18rem;
+}
+
+}
+
+// tienda
+
+#vista_productos {
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.contenedor_tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap:1rem
+}
+
+.tarjetas_productos {
+  width: 13rem;
+}
+
+
+
+  }
